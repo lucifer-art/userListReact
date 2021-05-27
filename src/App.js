@@ -1,5 +1,4 @@
-import {useState} from 'react';
-import './App.css';
+import React, {useState} from 'react';
 import AddUser from './components/Users/AddUser';
 import UserList from './components/Users/UserList/UserList';
 
@@ -15,10 +14,10 @@ function App(props) {
   }
 
   return (
-    <div className="App">
+    <React.Fragment>
       <AddUser getUser={getUserData}></AddUser>
       {userData.length ? <UserList userData={userData}></UserList> : ''}
-    </div>
+    </React.Fragment>
   );
 }
 
