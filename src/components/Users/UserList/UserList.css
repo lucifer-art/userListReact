@@ -1,0 +1,13 @@
+.user {
+    padding: 0;
+}
+.user li{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    margin: 10px auto;
+}
